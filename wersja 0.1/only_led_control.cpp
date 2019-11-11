@@ -5,10 +5,10 @@
  
  #define LED1 27 //led1
  bool led1_state=0;
-//const char* ssid = "Husarz";
-//const char* password =  "t3nrmaNawz2u";
- const char* ssid = "Klonowa_3/1";
-const char* password =  "baborow123";
+//const char* ssid = "sssid";
+//const char* password =  "pass";
+ const char* ssid = "pass";
+const char* password =  "ssid";
 void setup() {
   pinMode(LED1,OUTPUT);
   digitalWrite(LED1,0);
@@ -32,7 +32,7 @@ void loop() {
  
     HTTPClient http;
     String payload;
-    http.begin("http://espstation.000webhostapp.com/control_data.json"); //Specify the URL
+    http.begin("http://mysite/control_data.json"); //Specify the URL
     int httpCode = http.GET();                                        //Make the request
  
     if (httpCode > 0) { //Check for the returning code
