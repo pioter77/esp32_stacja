@@ -25,11 +25,11 @@
 #define ROT_L293_P4 15
 #define ROT_ANGLE_VAL 5 //5/20 is 1/4*360=90 degrees
 #define ROT_SPEED 5 //set rotation speed
-const char* ssid     = "Klonowa_3/1";
-//const char* password = "t3nrmaNawz2u";
-//const char* serverName = "http://espstation.000webhostapp.com/post-data.php";    
-const char* password = "baborow123";
-const char* serverName = "http://espstation.000webhostapp.com/post-data.php"; 
+const char* ssid     = "ssid";
+//const char* password = "pass";
+//const char* serverName = "http://mysite/post-data.php";    
+const char* password = "ssid";
+const char* serverName = "http://mysite/post-data.php"; 
 
 
 unsigned long time_b1_last_pressed=0;//for button debouncing
